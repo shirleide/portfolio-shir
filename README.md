@@ -6,9 +6,9 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-resume/)
 
-## Screenshot
+<!-- ## Screenshot
 
-![Screenshot](./src/assets/img/demo.png)
+![Screenshot](./src/assets/img/demo.png) -->
 
 ## Install
 

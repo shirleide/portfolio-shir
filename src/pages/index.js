@@ -4,43 +4,20 @@ import Layout from '../components/Layout';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
+import Resume from '../components/Sections/Resume'
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <Sidebar />
     <div className="container-fluid p-0">
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="about"
-      >
-        <div className="w-100">
-          <h1 className="mb-0">
-            {config.firstName}
-            <span className="text-primary">{config.lastName}</span>
-          </h1>
-          <div className="subheading mb-5">
-            {config.address} · {config.phone} ·
-            <a href={`mailto:${config.email}`}>{config.email}</a>
-          </div>
-          <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
-          </p>
-          <div className="social-icons">
-            {config.socialLinks.map(social => {
-              const { icon, url } = social;
-              return (
-                <a key={url} href={url}>
-                  <i className={`fab ${icon}`}></i>
-                </a>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
+      <Resume
+        firstName={config.firstName}
+        lastName={config.lastName}
+        address={config.address}
+        phone={config.phone}
+        email={config.email}
+        socialLinks={config.socialLinks}
+      />
       <hr className="m-0" />
 
       <section
@@ -48,7 +25,7 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Experiência</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -257,7 +234,7 @@ const IndexPage = () => (
         id="awards"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Projetos &amp; Iniciativas</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
