@@ -35,5 +35,5 @@ module.exports = {
   ],
   email: ' shirleidevips@gmail.com',
   phone: '(81) 98153-9276',
-  address: 'PE - BR',
+  address: 'Recife/PE - BR',
 };
