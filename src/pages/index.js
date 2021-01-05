@@ -14,10 +14,13 @@ const IndexPage = () => (
         firstName={config.firstName}
         lastName={config.lastName}
         address={config.address}
-        phone={config.phone}
         email={config.email}
         socialLinks={config.socialLinks}
-      />
+      >
+        Faço parte das comunidades ligadas a tecnologia: PyLadies Recife, Facebook Developers Circle Recife, WoMakersCode e Women Who Code Recife.
+        Também faço parte da comunidade Se Candidate Mulher! Ligada á mulheres de diversas outras áreas.
+        Sou Desenvolvedora Pleno Full Stack, Graduada no Curso Superior em Análise e Desenvolvimento de Sistemas, Técnica em Informática, Colunista Tech e Programador(a) no coletivo InspirAda na Computação.
+      </Resume>
       <hr className="m-0" />
 
       <section
@@ -32,12 +35,14 @@ const IndexPage = () => (
               <h3 className="mb-0">Software Engineer Full Stack</h3>
               <div className="subheading mb-3">Avanade</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                Atuando como Desenvolvedor (a) Full Stack - PL
+
+                𝗣𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗶𝘀 𝗮𝘁𝗶𝘃𝗶𝗱𝗮𝗱𝗲𝘀
+                - Consumindo API feita em Java, Spring,
+                - Construindo telas com JavaScript e Angular +9,
+                - Acompanhamento de atividades via Jira,
+                - Para versionamento Git e Git Lab.
+
               </p>
             </div>
             <div className="resume-date text-md-right">
@@ -104,7 +109,7 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">Formação Acadêmica</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">

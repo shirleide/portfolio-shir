@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Resume = ({ firstName, lastName, address, phone, email, socialLinks, children }) => {
+const Resume = ({ firstName, lastName, address, email, socialLinks, children }) => {
 
   return (
     <section
@@ -13,11 +13,11 @@ const Resume = ({ firstName, lastName, address, phone, email, socialLinks, child
           <span className="text-primary">{lastName}</span>
         </h1>
         <div className="subheading mb-5">
-          {address} · {phone} ·
+          {address} ·
           <a href={`mailto:${email}`}>{email}</a>
         </div>
         <p className="lead mb-5">
-          { children }
+          {children}
         </p>
         <div className="social-icons">
           {socialLinks.map(social => {
@@ -28,6 +28,12 @@ const Resume = ({ firstName, lastName, address, phone, email, socialLinks, child
               </a>
             );
           })}
+          <div>
+            <br />
+            <description>
+
+            </description>
+          </div>
         </div>
       </div>
     </section>
