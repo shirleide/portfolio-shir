@@ -14,8 +14,8 @@ export class Sidebar extends Component {
         { content: 'Experiência', href: 'experience' },
         { content: 'Formação Acadêmica', href: 'education' },
         { content: 'Skills', href: 'skills' },
-        { content: 'Interesses', href: 'interests' },
-        { content: 'Atuação', href: 'awards' },
+        // { content: 'Interesses', href: 'interests' },
+        // { content: 'Atuação', href: 'awards' },
       ],
       isCollapsed: true,
     };

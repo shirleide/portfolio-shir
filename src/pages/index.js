@@ -17,9 +17,15 @@ const IndexPage = () => (
         email={config.email}
         socialLinks={config.socialLinks}
       >
-        Faço parte das comunidades ligadas a tecnologia: PyLadies Recife, Facebook Developers Circle Recife, WoMakersCode e Women Who Code Recife.
-        Também faço parte da comunidade Se Candidate Mulher! Ligada á mulheres de diversas outras áreas.
-        Sou Desenvolvedora Pleno Full Stack, Graduada no Curso Superior em Análise e Desenvolvimento de Sistemas, Técnica em Informática, Colunista Tech e Programador(a) no coletivo InspirAda na Computação.
+        <p>
+          Sou Desenvolvedora Pleno Full Stack na Avanade, Pós Graduanda na Especialização em Gestão Ágil de Projetos, <br />Graduada no Curso Superior em Análise e Desenvolvimento de Sistemas pela Estácio, Técnica em Informática com enfâse em Programação, Colunista Tech + Programador(a) e Social Media no coletivo InspirAda na Computação. <br />
+        </p>
+        <p>
+          Sou membra ativa nas comunidades ligadas á tecnologia: PyLadies Recife, Facebook Developers Circle Recife, Reprograma, WoMakersCode e Women Who Code Recife. <br />
+        </p>
+        <p>
+          Também sou membra da comunidade Se Candidate Mulher! Ligada á mulheres de diversas outras áreas.
+        </p>
       </Resume>
       <hr className="m-0" />
 
@@ -34,14 +40,22 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Software Engineer Full Stack</h3>
               <div className="subheading mb-3">Avanade</div>
-              <p>
-                Atuando como Desenvolvedor (a) Full Stack - PL
+              <br />
+              <p className="mb-0">
+                Projeto 01<br />
+                - Atuava como Developer Front End<br />
 
-                𝗣𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗶𝘀 𝗮𝘁𝗶𝘃𝗶𝗱𝗮𝗱𝗲𝘀
-                - Consumindo API feita em Java, Spring,
-                - Construindo telas com JavaScript e Angular +9,
-                - Acompanhamento de atividades via Jira,
-                - Para versionamento Git e Git Lab.
+              </p>
+              <br />
+              <p className="mb-0">
+                Projeto 02<br />
+                - Atuava como Developer Front End
+
+              </p>
+              <br />
+              <p className="mb-0">
+                Projeto 03 <br />
+                - Atuando como Analista de Testes (QA - Quality Assurance)<br />
 
               </p>
             </div>
@@ -52,51 +66,52 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+              <h3 className="mb-0">Desenvolvedora de Software Front End</h3>
+              <div className="subheading mb-3">Procenge Tecnologia</div>
+              <p className="mb-0">
+                - Atuava como Desenvolvedor (a) Front End <br />
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">Abril 2020 - Agosto 2020</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+              <h3 className="mb-0">New Associate Software Engineering</h3>
+              <div className="subheading mb-3">Accenture</div>
+              <p className="mb-0">
+                Projeto 01<br />
+                - Atuava como Desenvolvedora ODI Oracle <br />
+              </p>
+              <br />
+              <p className="mb-0">
+                Projeto 02<br />
+                - Atuava como Desenvolvedora Full Stack <br />
+                {/* - Atuava também na função de PMO <br /> */}
+              </p>
+              <br />
+              <p className="mb-0">
+                Projeto 03 <br />
+                - Atuava como Analista Siebel8 <br />
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">Fevereiro 2018 - Abril 2020</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+              <h3 className="mb-0">Estagiário (a) de Suporte de TI </h3>
+              <div className="subheading mb-3">Empresa de Urbanização da Prefeitura do Recife - URB RECIFE</div>
+              <p className="mb-0">
+                - Atuava como Estagiária de Suporte de TI
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">Março 2016 - Janeiro 2018</span>
             </div>
           </div>
         </div>
@@ -113,24 +128,23 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">CESAR SCHOOL</h3>
+              <div className="subheading mb-3">Pós-Graduação em Gestão Ágil de Projetos</div>
+              <div>Especialização em Gestão Ágil de Projetos(GAP) tem como objetivo promover a habilidade de entender, adaptar e utilizar metodologias ágeis de forma prática, consistente e eficaz dentro do processo de gerenciamento de projetos.</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">Fevereiro 2021 - Dezembro 2022</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">Estácio</h3>
+              <div className="subheading mb-3">Análise e Desenvolvimento de Sistemas  </div>
+              <div> Graduação Tecnológica. </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">Agosto 2017 - Junho 2020</span>
             </div>
           </div>
         </div>
@@ -146,7 +160,7 @@ const IndexPage = () => (
           <h2 className="mb-5">Skills</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Tecnologias &amp; Hard Skills
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
@@ -168,34 +182,35 @@ const IndexPage = () => (
               <i className="fab fa-node-js"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
+              <i className="fab fa-java"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
+              <i className="fab fa-git"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
             </li>
           </ul>
-
-          <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+            Banco de dados: Oracle SQL, PL/SQL, MongoDB
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+            Linguagens: C#
+            </li>
+          </ul>
+          <br />
+          <div className="subheading mb-3">Ferramentas &amp; Soft Skills</div>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Metodologias Ágeis: Scrum e Kanban
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Versionamento: Git, GitHub, GitLab
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -211,7 +226,7 @@ const IndexPage = () => (
 
       <hr className="m-0" />
 
-      <section
+      {/* <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="interests"
       >
@@ -232,9 +247,9 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <hr className="m-0" />
+      <hr className="m-0" /> */}
 
-      <section
+      {/* <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="awards"
       >
@@ -274,7 +289,7 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
     </div>
   </Layout>
 );

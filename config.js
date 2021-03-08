@@ -30,8 +30,8 @@ module.exports = {
     {
       icon: 'fa-instagram',
       name: 'Instagram',
-      url: 'https://instagram.com/shirleidevips',
-    },
+      url: 'https://instagram.com/shirleide.dev',
+    }
   ],
   email: ' shirleidevips@gmail.com',
   phone: '(81) 98153-9276',
