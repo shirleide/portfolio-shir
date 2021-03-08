@@ -206,19 +206,51 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Metodologias Ágeis: Scrum e Kanban
+                Metodologias Ágeis: Scrum e Kanban
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Versionamento: Git, GitHub, GitLab
+                Versionamento: Git, GitHub, GitLab
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+                Agile Development
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+                Comunicação
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+                Espírito de equipe
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+                Flexibilidade
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Gestão de projetos
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+                Inteligência Emocional
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+                Liderança
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+                Pensamento Analítico e Criativo
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+                Proatividade
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+                Resiliência.
             </li>
           </ul>
         </div>
