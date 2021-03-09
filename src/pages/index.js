@@ -18,7 +18,7 @@ const IndexPage = () => (
         socialLinks={config.socialLinks}
       >
         <p>
-          Sou Desenvolvedora Pleno Full Stack na Avanade, Pós Graduanda na Especialização em Gestão Ágil de Projetos, <br />Graduada no Curso Superior em Análise e Desenvolvimento de Sistemas pela Estácio, Técnica em Informática com enfâse em Programação, Colunista Tech + Programador(a) e Social Media no coletivo InspirAda na Computação. <br />
+          Sou Desenvolvedora Pleno Full Stack na Avanade, Pós Graduanda na Especialização em Gestão Ágil de Projetos, <br />Graduada no Curso Superior em Análise e Desenvolvimento de Sistemas pela Estácio, Técnica em Informática com ênfase em Programação, Colunista Tech + Programador(a) e Social Media no coletivo InspirAda na Computação. <br />
         </p>
         <p>
           Sou membra ativa nas comunidades ligadas á tecnologia: PyLadies Recife, Facebook Developers Circle Recife, Reprograma, WoMakersCode e Women Who Code Recife. <br />
